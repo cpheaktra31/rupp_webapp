@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Brygada 1918', serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+#registrater .wrapper form .form-group {
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin-bottom: 20px;
+}
+
+input:not([type=radio],[type=checkbox]), textarea, select {
+    font-size: 16px;
+    padding: 8px 10px;
+    width: 100% !important;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+input#firstName, input#lastName {
+    width: 50% !important;
+    display: block;
+    float: left;
+}
+
+button {
+    padding: 8px 10px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.pe {
+    padding-right: 10px;
+}

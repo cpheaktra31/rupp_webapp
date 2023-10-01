@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 Exercise 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="registrater">
+        <div class="wrapper">
+            <div class="container">
+                <h1>Registration Form</h1>
+                <br><br>
+                <form>
+                    <div class="form-group">
+                        <label class="text-end pe">Full Name :</label>
+                        <div>
+                            <input type="text" name="first_name" id="firstName" placeholder="Firstname">
+                            <input type="text" name="last_name" id="lastName" placeholder="Lastname">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-end pe">Comapany :</label>
+                        <div>
+                            <input type="text" name="company" placeholder="Your company name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-end pe">Email :</label>
+                        <div>
+                            <input type="email" name="email" placeholder="email@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-end pe">Phone :</label>
+                        <div>
+                            <input type="number" name="phone" placeholder="0123456789">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-end pe">City/Country :</label>
+                        <div>
+                            <select name="country">
+                                <option>Select city/country</option>
+                                <option value="Banteay Meanchey">Banteay Meanchey</option>
+                                <option value="Battambang">Battambang</option>
+                                <option value="Kampong Cham">Kampong Cham</option>
+                                <option value="Kampong Chhnang">Kampong Chhnang</option>
+                                <option value="Kampong Speu">Kampong Speu</option>
+                                <option value="Kampong Thom">Kampong Thom</option>
+                                <option value="Kampot">Kampot</option>
+                                <option value="Kandal">Kandal</option>
+                                <option value="Kep">Kep</option>
+                                <option value="Koh Kong">Koh Kong</option>
+                                <option value="Kratié">Kratié</option>
+                                <option value="Mondulkiri">Mondulkiri</option>
+                                <option value="Oddar Meanchey">Oddar Meanchey</option>
+                                <option value="Pailin">Pailin</option>
+                                <option value="Phnom Penh">Phnom Penh</option>
+                                <option value="Preah Vihear">Preah Vihear</option>
+                                <option value="Pursat">Pursat</option>
+                                <option value="Prey Veng">Prey Veng</option>
+                                <option value="Ratanakiri">Ratanakiri</option>
+                                <option value="Siem Reap">Siem Reap</option>
+                                <option value="Preah Sihanouk">Preah Sihanouk</option>
+                                <option value="Stung Treng">Stung Treng</option>
+                                <option value="Svay Rieng">Svay Rieng</option>
+                                <option value="Takéo">Takéo</option>
+                                <option value="Tboung Khmum">Tboung Khmum</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-end pe">Gender :</label>
+                        <div>
+                            <label>
+                                <input type="radio" name="gender"> Male
+                            </label>
+                            <label>
+                                <input type="radio" name="gender"> Female
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-end pe">Language :</label>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="language"> English
+                            </label>
+                            <label>
+                                <input type="checkbox" name="language"> Khmer
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-end pe">Comment :</label>
+                        <div>
+                            <textarea name="comment" cols="30" rows="3" placeholder="Say hello"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label></label>
+                        <label>
+                            <input type="checkbox" name="agree"> I agree with <a href="#">Term and Conditions</a>
+                        </label>
+                    </div>
+
+                    <div class="w-100 text-center">
+                        <button type="button">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
