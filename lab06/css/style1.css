@@ -1,0 +1,30 @@
+body { margin: 0; padding: 0; box-sizing: border-box; }
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+p { font-size: 16px; font-weight: 400; }
+pre { font-family: 'Courier New'; }
+button { padding: 7px 10px; }
+input { padding: 7px 10px; }
+.text-center { text-align: center; }
+.text-start { text-align: start; }
+.text-end { text-align: end; }
+.d-flex { display: flex; }
+.justify-content-center { justify-content: center; }
+.justify-content-between { justify-content: space-between; }
+.justify-content-early { justify-content: space-evenly; }
+.justify-content-around { justify-content: space-around; }
+.bg-dark { background-color: #222; }
+.bg-light { background-color: #f0f0f0; }
+#header { background-color: #222; }
+#navbar { background-color: #f0f0f0; }
+#footer { background-color: #222; }
+#btnSubmit { background-color: #222; padding: 7px 10px; border-radius: 0; }
+#logo { height: 40px; }
+#banner { width: 100%; height: 400px; }
+#submenu { padding: 10px; background-color: #222; }
+#hamburger { display: flex; flex-direction: column; gap: 5px; }
+#sidebar { background-color: #222; color: #f0f0f0; }
+#featuredArticle { display: grid; grid-template-columns: 200px 200px 200px; }
