@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5 Exercise 1</title>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+        #video {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 3px;
+        }
+        #audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Video:</h3>
+        <video id="video" controls autoplay muted>
+            <source src="videos/Jingle-Bells.mp4" type="video/mp4">
+        </video>
+        <h3>Audio:</h3>
+        <audio id="audio" controls>
+            <source src="audios/Jingle-Bells.mp3" type="audio/mpeg">
+        </audio>
+        <h3>Canvas:</h3>
+        <canvas id="cmTree" width="200" height="250" style="margin: auto;"></canvas>
+        <h4>Youtube (iframe):</h4>
+        <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/VR5oxQ32NGY?si=jVWeClcdc3HUnUBX" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
+        <h3>Website (iframe):</h3>
+        <iframe src="https://programiz.pro" title="programiz pro website" width="100%" height="600" ></iframe>
+    </div>
+
+    <script>
+        const canvas = document.getElementById("cmTree");
+        const ctx = canvas.getContext("2d");
+        
+        ctx.beginPath();
+        // Tree layer 01
+        ctx.moveTo(100,20);
+        ctx.lineTo(140,80);
+        ctx.lineTo(60,80);
+        ctx.lineTo(100,20);
+        // Tree layer 02
+        ctx.moveTo(100,60);
+        ctx.lineTo(160,130);
+        ctx.lineTo(35,130);
+        ctx.lineTo(100,60);
+        // Tree layer 03
+        ctx.moveTo(100,110);
+        ctx.lineTo(175,180);
+        ctx.lineTo(20,180);
+        ctx.lineTo(100,110);
+        // Draw the 3 layer
+        ctx.fillStyle = "#339900";
+        ctx.fill();
+        
+        ctx.beginPath();
+        ctx.lineWidth = "4";
+        ctx.fillStyle = "#8b4513";
+        ctx.rect(85, 180, 30, 50);
+        ctx.fill();
+        
+        </script>
+        
+</body>
+</html>
